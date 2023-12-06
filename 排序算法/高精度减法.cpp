@@ -40,6 +40,6 @@ int main(){
         C = sub(B, A);
         printf("-");
     }
-
-    
+    for(int i=C.size()-1; i>=0; i--) printf("%d", C[i]);
+    return 0;    
 }
